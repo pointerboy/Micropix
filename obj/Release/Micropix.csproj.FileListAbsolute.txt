@@ -1,0 +1,10 @@
+G:\Users\luka\source\repos\Micropix\Micropix\bin\Release\Micropix.exe.config
+G:\Users\luka\source\repos\Micropix\Micropix\bin\Release\Micropix.exe
+G:\Users\luka\source\repos\Micropix\Micropix\bin\Release\Micropix.pdb
+G:\Users\luka\source\repos\Micropix\Micropix\obj\Release\Micropix.Form.resources
+G:\Users\luka\source\repos\Micropix\Micropix\obj\Release\Micropix.Properties.Resources.resources
+G:\Users\luka\source\repos\Micropix\Micropix\obj\Release\Micropix.csproj.GenerateResource.cache
+G:\Users\luka\source\repos\Micropix\Micropix\obj\Release\Micropix.csproj.CoreCompileInputs.cache
+G:\Users\luka\source\repos\Micropix\Micropix\obj\Release\Micropix.exe
+G:\Users\luka\source\repos\Micropix\Micropix\obj\Release\Micropix.pdb
+G:\Users\luka\source\repos\Micropix\Micropix\obj\Release\Micropix.csprojAssemblyReference.cache
