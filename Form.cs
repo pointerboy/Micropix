@@ -1,7 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
+using System.IO;
+using System.Linq;
+using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Micropix
@@ -26,12 +34,17 @@ namespace Micropix
             SetupSnipButtonIcon();
         }
 
-        private void snipBtn_Click(object sender, EventArgs e)
+        async Task DelayScreenshot(int index)
+        {
+            await Task.Delay(index + 1 * 1000);
+        }
+
+        private async void snipBtn_ClickAsync(object sender, EventArgs e)
         {
             if(timerCombobox.SelectedIndex != -1)
             {
                 Hide();
-                Thread.Sleep(timerCombobox.SelectedIndex+1 * 1000);
+                await DelayScreenshot(timerCombobox.SelectedIndex);
             }
 
             if (isFreeFormSnipActive)
